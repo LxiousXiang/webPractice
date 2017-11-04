@@ -1,0 +1,110 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+	<meta http-equiv="Content-Type" content="text/html; charset=gb2312" />
+	<title>Nine_Grid_effects</title>
+	<style type="text/css">
+	*{
+		margin:0px;
+		padding:0px;
+	}
+	.container{width:900px;
+				height:480px;
+				margin:40px auto;
+				overflow:hidden;
+				background-color:#CCCCCC;}
+	ul li{
+			list-style:none;
+			position:relative;
+			float:left;
+			width:300px;
+			height:160px;}
+	ul li .original{
+		  z-index:2;
+		  opacity:1;}
+	ul li img{
+			position:absolute;
+			top:0px;
+			left:0px;
+			opacity:0;
+			transition:1s;}
+	ul li:hover .right{	
+			z-index:3;
+			left:302px;
+			opacity:1;
+		}
+	ul li:hover  .left{
+		z-index:3;
+		left:-302px;
+		opacity:1;}
+	ul li:hover .top{
+		z-index:3;
+		top:-162px;
+		opacity:1;}
+	ul li:hover .buttom{
+		z-index:999;
+		top:162px;
+		opacity:1;}
+
+	</style>
+</head>
+<body>
+	<h1 style="font-size:36px; margin-left:35%; margin-top:10px;">Nine grid effects demo</h1>
+	<div class="container">
+		<ul>
+			<li>1
+				<img src="images/y1.jpg " class="original">
+				<img src="images/02.jpg "   class="right">
+				<img src="images/03.jpg "   class="buttom">
+			</li>
+			<li>2
+				<img src="images/y2.jpg  " class="original">
+				<img src="images/05.jpg "  class="left">
+				<img src="images/06.jpg "  class="buttom">
+				<img src="images/07.jpg " class="right">
+			</li>
+			<li>3
+				<img src="images/y3.jpg " class="original">
+				<img src="images/09.jpg " class="left" >
+				<img src="images/10.jpg "  class="buttom">
+			</li>
+			<li>4
+				<img src="images/y2.jpg  " class="original">
+				<img src="images/12.jpg " class=" top">
+				<img src="images/13.jpg " class="buttom">
+				<img src="images/03.jpg " class="right">
+			</li>
+			<li>5
+				<img src="images/y6.jpg  " class="original">
+				<img src="images/04.jpg "  class="top">
+				<img src="images/08.jpg " class="left">
+				<img src="images/02.jpg " class="buttom">
+				<img src="images/05.jpg " class="right">
+			</li>
+			<li>6
+				<img src="images/y5.jpg " class="original">
+				<img src="images/09.jpg " class="top">
+				<img src="images/11.jpg " class="buttom">
+				<img src="images/10.jpg " class="left">
+			
+			</li>
+			<li>7
+				<img src="images/y3.jpg " class="original">
+				<img src="images/13.jpg " class="top">
+				<img src="images/12.jpg " class="right">
+			</li>
+			<li>8
+				<img src="images/y2.jpg " class="original">
+				<img src="images/06.jpg " class="top">
+				<img src="images/01.jpg " class="left">
+				<img src="images/07.jpg " class="right">
+			</li>
+			<li>9
+				<img src="images/y1.jpg " class="original">
+				<img src="images/04.jpg " class="top">
+				<img src="images/09.jpg " class="left">
+			</li>
+		</ul>
+	</div>
+</body>
+</html>

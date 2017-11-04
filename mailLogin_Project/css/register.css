@@ -1,0 +1,93 @@
+@charset "UTF-8";
+/* CSS Document */
+
+body{
+	margin:0px;
+	padding:0px;
+	width:100%;
+	height:100%;
+	background-color:#CCC;
+	background-image:url(../images/register.jpeg);
+	background-size:cover;
+	background-attachment:fixed;
+}
+
+.registerDiv{
+	background:rgba(204,204,204,0.4);
+	width:700px;
+	height:500px;
+	margin: 100px auto;
+}
+
+.welcomeDiv{
+	background-color:#0C0;
+	height:40px;
+	width:inherit;	
+}
+
+.welcomeSpan{
+	font-weight:bold;
+	font-size:26px;
+	font-family:"Trebuchet MS", Arial, Helvetica, sans-serif;
+	color:#FFF;
+	
+}
+
+table{
+	margin-top:20px;
+	margin-left:70px;
+	border-color:#06C;	
+}
+
+.tleft{
+	text-align:right;
+	font-style:normal;
+	font-weight:blod;
+	font-size:20px;
+	font-family:"Lucida Sans Unicode", "Lucida Grande", sans-serif;	
+}
+
+.tright{
+	width:180px;
+	color:#F60;
+	font-style:normal;
+	font-size:12px;
+	font-family:Georgia, "Times New Roman", Times, serif;
+	padding-left:15px;
+}
+
+.inputField{
+	width:150px;
+	height:20px;
+	border-width:thin;
+	background:rgba(204,204,204,0.4);
+	border-color:#A2A2A2;
+	
+}
+
+.inputPrompt{
+	height:10px;
+	font-weight:lighter;
+	font-size:4px;
+}
+
+#resetBtn{
+	margin-left:100px;
+	margin-top:20px;
+	width:100px;
+	height:30px;
+	background-color:#FC6;
+	border-width:thin;
+}
+
+#submitBtn{
+	margin-top:20px;
+	width:200px;
+	height:30px;
+	background-color:#0C0;
+	border-width:thin;
+}
+
+
+
+

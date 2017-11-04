@@ -1,0 +1,192 @@
+
+#container{
+	width: 1200px;
+	margin:30px auto;
+}
+
+#header{
+	height: 80px;
+	background: #EEE;
+	padding-top: 10px;
+}
+
+#web-title{
+	height: 40px;
+	line-height: 40px;
+	font-size: 28px;
+	font-family: '微软雅黑','黑体','新宋', sans-serif;
+	letter-spacing: 6px;
+	text-align: center;
+	background: #EEE;
+	color:black;
+}
+
+#scroll-banner{
+	height: 30px;
+	margin-top: 10px;
+	font-size: 15px;
+	line-height: 30px;
+	background: #EEE;
+}
+
+#main{
+	height: 600px;
+	margin-top: 10px;
+}
+
+#lside{
+	width: 480px;
+	height: inherit;
+	background: #EEE;
+	float: left;
+}
+
+#lside-title{
+	width: inherit;
+	height: 30px;
+	font-weight:bold;
+	font-size: 20px;
+	letter-spacing: 1px;
+	display: block;
+	margin-top: 30px;
+	text-align: center;
+}
+
+#lside ol{
+	margin-top:30px;
+	margin-left: 60px;
+}
+
+#lside ol li{
+	height: 40px;
+}
+
+#lside ol li img{
+	width: 25px;
+	height: 25px;
+	display: block;
+	float: left;
+
+}
+
+#lside ol li a{
+	display: block;
+	float: left;
+	margin-left: 12px;
+}
+
+#lside ol li span{
+	font-weight: bold;
+	font-size: 16px;
+}
+
+#rside{
+	width: 710px;
+	height: inherit;
+	float: right;
+}
+
+/*放置图片position*/
+#rside-up{
+	width: 710px;
+	height: 400px;
+	background: #EEE;
+	position: relative;
+	overflow: hidden;
+}
+
+#rside-up img{
+	width: 710px;
+	height: 400px;
+	position: absolute;
+	transition:1s;
+}
+/*图片特效部分*/
+.center{
+	z-index: 1;
+	top: 0px;
+	bottom: 0px;
+	left: 0px;
+	right: 0px;
+}
+
+.top{
+	z-index: 1;
+	top: -400px;
+	left: 0px;
+	right: 0px;
+}
+
+.left{
+	z-index: 1;
+	top: 0px;
+	bottom: 0px;
+	left: -710px;
+}
+
+.right{
+	z-index: 1;
+	top: 0px;
+	bottom: 0px;
+	right: -710px;
+}
+/*图片特效结束部分*/
+
+
+#rside-down{
+	height: 178px;
+	margin-top:10px;
+	background: #EEE;
+	padding-top: 12px;
+	padding-left: 35px;
+}
+
+#rside-down table{
+	width: 640px;
+	height: 120px;
+	border: 1px solid black;
+	border-collapse: collapse;
+}
+
+#rside-down td{
+	width: 128px;
+	height: 60px;
+	border:1px solid black;
+	text-align: center;
+	padding: 0;
+}
+
+#rside-down td a{
+	width: inherit;
+	height: inherit;
+	color: black;
+	line-height: 60px;
+	text-decoration: none;
+	background: gray;
+	display: block;
+}
+
+#rside-down td a:hover{
+	width: inherit;
+	height: inherit;
+	color: black;
+	line-height: 60px;
+	text-decoration: none;
+	background: orange;
+	display: block;
+}
+
+#rside-down caption{
+	font-weight: bold;
+	font-size: 20px;
+	margin-bottom: 5px;
+	letter-spacing: 2px;
+}
+
+#footer{
+	height:50px;
+	background: #EEE;
+	text-align: center;
+	margin-top: 10px;
+	padding-top:10px;
+}

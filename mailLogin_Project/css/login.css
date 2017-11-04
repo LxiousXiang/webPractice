@@ -1,0 +1,130 @@
+@charset "UTF-8";
+/* CSS Document */
+
+
+body{
+	width:100%;
+	height:100%;
+	background-color:#CCC;
+	background-image:url(../images/login.jpeg);
+	background-attachment:fixed;
+	background-size:cover;
+}
+
+.loginField{
+	width:340px;
+	height:500px;
+	background:rgba(204,204,204,0.6);
+	margin-top:120px;
+	margin-left:auto;
+	margin-right:auto;
+}
+
+#loginFieldHeader{
+	width:inherit;
+	height:10px;
+	background-color:#090;
+}
+#welcomePrompt{
+	width:inherit;
+	height:50px;
+	text-align:center;
+	font-weight:bold;
+	font-size:22px;
+	color:#090;
+	padding-top:20px;
+}
+
+.userField{
+	width:290px;
+	height:40px;
+	margin:auto;
+	padding-top:30px;
+	border:0px solid green;
+	border-bottom-width:2px;
+}
+
+.userLeft{
+	width:190px;
+	height:40px;
+	float:left;
+}
+
+#username{
+	width:190px;
+	height:inherit;
+	background:inherit;
+	border-width:0px;
+	font-size:16px;
+	outline:none;
+}
+
+.userRight{
+	width:100px;
+	height:40px;
+	float:left;
+	position:relative;
+}
+#userRightSpan{
+	position:absolute;
+	bottom:10px;
+	color:green;
+	font-size:16px;
+}
+
+#passwordField{
+	width:290px;
+	height:40px;
+	margin:auto;
+	margin-top:15px;
+	border:0px solid green;
+	border-bottom-width:2px;
+}
+#userPassword{
+	width:inherit;
+	height:inherit;
+	border-width:0px;
+	background:inherit;
+	font-size:16px;
+	outline:none;
+}
+
+#forgetPassword{
+	width:inherit;
+	height:20px;
+	margin-top:12px;
+	padding-right:20px;
+	padding-left:260px;
+	font-size:12px;
+}
+
+#errorPrompt{
+	width:inherit;
+	height:20px;
+	margin-top:7px;
+	padding-left:30px;
+	font-size:12px;
+	color:#F60;
+}
+
+#buttonField{
+	width:inherit;
+	height:40px;
+	margin-top:10px;
+}
+#login{
+	width:130px;
+	height:inherit;
+	margin-left:20px;
+	background-color:green;
+	border-width:thin;
+	outline:none;
+}
+#registerNow{
+	width:130px;
+	height:inherit;
+	margin-left:30px;
+	background-color:orange;
+	border-width:thin;
+	outline:none;
+}
